@@ -1,5 +1,6 @@
 import React from "react";
 import { card_components_items } from "../Data/Card_components_items";
+import ProductGrid from "../SingleCard/ProductGrid";
 
 const Card = ({ heading, images, hyperlink }) => {
     return (
@@ -54,7 +55,8 @@ const Card = ({ heading, images, hyperlink }) => {
 };
 
 const CardLayout = () => {
-    return (
+    return (<>
+   
         <div className="grid grid-cols-4 gap-6 p-6 bg-gray-50">
             {card_components_items.map((item, index) => (
                 <Card 
@@ -64,9 +66,9 @@ const CardLayout = () => {
                     hyperlink={item.hyperlink} 
                 />
             ))}
-
-            
         </div>
+        <ProductGrid/>
+        </>
     );
 };
 

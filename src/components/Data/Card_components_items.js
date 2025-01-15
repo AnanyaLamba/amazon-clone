@@ -1,32 +1,24 @@
-import item1 from "../../assets/CardImages/item1.jpg"
-import item2 from "../../assets/CardImages/item2.jpg"
-import item3 from "../../assets/CardImages/item3.jpg"
-import item4 from "../../assets/CardImages/item4.jpg"
-
-
-
-
 export const card_components_items = [
     {
         heading: "Deals based on your shopping trends",
         images : [
             {
-                img: item1,
+                img: "/asset/card_components/shopping_trends/img1.jpg",
                 off: "26% off",
                 deal: "Republic Day Deal"
             },
             {
-                img: item2,
+                img: "/asset/card_components/shopping_trends/img2.jpg",
                 off: "41% off",
                 deal: "Republic Day Deal"
             },
             {
-                img:item3,
+                img: "/asset/card_components/shopping_trends/img3.jpg",
                 off: "41% off",
                 deal: "Republic Day Deal"
             },
             {
-                img:item4 ,
+                img: "/asset/card_components/shopping_trends/img4.jpg",
                 off: "28% off",
                 deal: "Republic Day Deal"
             }
@@ -37,19 +29,19 @@ export const card_components_items = [
         heading: "Minimum 50% off | Home, kitchen & more",
         images : [
             {
-                img:item1,
+                img: "/asset/card_components/discounts/img1.jpg",
                 subHeading: "Kitchen Essentials",
             },
             {
-                img: item2,
+                img: "/asset/card_components/discounts/img2.jpg",
                 subHeading: "Home Decor",
             },
             {
-                img: item3,
+                img: "/asset/card_components/discounts/img3.jpg",
                 subHeading: "Furniture",
             },
             {
-                img:item4,
+                img: "/asset/card_components/discounts/img4.jpg",
                 subHeading: "Home Improvement",
             }
         ],
@@ -59,19 +51,19 @@ export const card_components_items = [
         heading: "Deals on accessories for your top smartphone brands",
         images : [
             {
-                img: item1,
+                img: "/asset/card_components/brand_deals/img1.jpg",
                 subHeading: "RealMe | Upto 70% off",
             },
             {
-                img: item2,
+                img: "/asset/card_components/brand_deals/img2.jpg",
                 subHeading: "Samsung | Upto 60% off",
             },
             {
-                img: item3,
+                img: "/asset/card_components/brand_deals/img3.jpg",
                 subHeading: "OnePlus | Upto 35% off",
             },
             {
-                img: item4,
+                img: "/asset/card_components/brand_deals/img4.jpg",
                 subHeading: "Xiaomi | Upto 70% off",
             }
         ],
@@ -81,19 +73,19 @@ export const card_components_items = [
         heading: "Up to 75% off | Top categories from Small Businesses",
         images : [
             {
-                img: item1,
+                img: "/asset/card_components/small_businesses/img1.jpg",
                 subHeading: "Home Decor",
             },
             {
-                img: item2,
+                img: "/asset/card_components/small_businesses/img2.jpg",
                 subHeading: "Women's Clothing",
             },
             {
-                img: item3,
+                img: "/asset/card_components/small_businesses/img3.jpg",
                 subHeading: "Furniture",
             },
             {
-                img: item4,
+                img: "/asset/card_components/small_businesses/img4.jpg",
                 subHeading: "Clocks",
             }
         ],
@@ -103,19 +95,19 @@ export const card_components_items = [
         heading: "Minimum 50% off | Amazon brands & more",
         images : [
             {
-                img:item1,
+                img: "/asset/card_components/multi_brands/img1.jpg",
                 subHeading: "Minimum 50% off | Beds",
             },
             {
-                img: item2,
+                img: "/asset/card_components/multi_brands/img2.jpg",
                 subHeading: "Starting ₹299 | Storage Containers",
             },
             {
-                img: item3,
+                img: "/asset/card_components/multi_brands/img3.jpg",
                 subHeading: "Minimum 40% off | Racks and Holders",
             },
             {
-                img:item4,
+                img: "/asset/card_components/multi_brands/img4.jpg",
                 subHeading: "Minimum 45% off | Bean Bags",
             }
         ],
@@ -125,7 +117,7 @@ export const card_components_items = [
         heading: "Up to 75% off | Electronics & accessories",
         images : [
             {
-                img: item1
+                img: "/asset/card_components/electronics/img1.jpg"
             }
         ],
         hyperlink: "See all offers"
@@ -134,19 +126,19 @@ export const card_components_items = [
         heading: "Up to 60% off | Daily needs",
         images : [
             {
-                img: item1,
+                img: "/asset/card_components/daily_needs/img1.jpg",
                 subHeading: "Household & Personal Care",
             },
             {
-                img: item2,
+                img: "/asset/card_components/daily_needs/img2.jpg",
                 subHeading: "Food & Beverages",
             },
             {
-                img: item3,
+                img: "/asset/card_components/daily_needs/img3.jpg",
                 subHeading: "Baby Care",
             },
             {
-                img:item4,
+                img: "/asset/card_components/daily_needs/img4.jpg",
                 subHeading: "Pet Care",
             }
         ],
@@ -156,19 +148,19 @@ export const card_components_items = [
         heading: "Up to 60% off | Playtime for little ones",
         images : [
             {
-                img:item1,
+                img: "/asset/card_components/daily_needs/img1.jpg",
                 subHeading: "Up to 60% off | Playmats",
             },
             {
-                img:item2,
+                img: "/asset/card_components/daily_needs/img2.jpg",
                 subHeading: "Up to 50% off | Pushwalkers",
             },
             {
-                img: item3,
+                img: "/asset/card_components/daily_needs/img3.jpg",
                 subHeading: "Up to 45% off | Rockers",
             },
             {
-                img:item4,
+                img: "/assest/card_components/daily_needs/img4.jpg",
                 subHeading: "Up to 60% off | Baby Tous",
             }
         ],
