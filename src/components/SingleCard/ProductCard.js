@@ -9,6 +9,7 @@ const ProductCard = ({
   originalPrice,
   dealTag,
   deliveryDate,
+  onAddToCart,
 }) => {
   const styles = {
     card: {
@@ -142,6 +143,7 @@ const ProductCard = ({
         style={styles.button}
         onMouseEnter={(e) => (e.target.style.backgroundColor = styles.buttonHover.backgroundColor)}
         onMouseLeave={(e) => (e.target.style.backgroundColor = styles.button.backgroundColor)}
+        onClick={onAddToCart} // Call the parent function on click
       >
         Add to Cart
       </button>
