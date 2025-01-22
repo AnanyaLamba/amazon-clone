@@ -4,7 +4,7 @@ export default function CartItem({
   item,
   onRemoveItem,
   onQuantityChange,
-  isSelected,
+  // isSelected,
 }) {
   const handleIncrement = () => {
     if (item.quantity < 5) {
@@ -21,9 +21,10 @@ export default function CartItem({
   return (
     <div
       key={item.id}
-      className={`flex justify-between items-center py-4 border-b ${
-        !item.inStock && "opacity-50"
-      }`}
+      className={`flex justify-between items-center py-4 border-b`}
+      //   ${
+      //   !item.inStock && "opacity-50"
+      // }`}
     >
       <div className="flex items-center relative">
         <img
@@ -39,7 +40,7 @@ export default function CartItem({
 
         <div>
           <h3 className="text-lg font-semibold">{item.name}</h3>
-          <p className="text-gray-600">by {item.name.split(" ")[0]}</p>
+          {/* <p className="text-gray-600">by {item.name.split(" ")[0]}</p> */}
           <p
             className={`text-gray-600 ${
               item.inStock ? "text-green-500" : "text-red-500"
